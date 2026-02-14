@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.qoobot</groupId>
+        <artifactId>openwarehouse</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>openwarehouse-warehouse</artifactId>
+    <packaging>jar</packaging>
+    <name>openwarehouse-warehouse</name>
+    <description>仓储核心模块</description>
+
+    <dependencies>
+        <!-- Common Module -->
+        <dependency>
+            <groupId>com.qoobot</groupId>
+            <artifactId>openwarehouse-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <!-- Auth Module -->
+        <dependency>
+            <groupId>com.qoobot</groupId>
+            <artifactId>openwarehouse-auth</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <!-- System Module -->
+        <dependency>
+            <groupId>com.qoobot</groupId>
+            <artifactId>openwarehouse-system</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <!-- MyBatis Plus -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+        </dependency>
+
+        <!-- MySQL Driver -->
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+        </dependency>
+    </dependencies>
+</project>
