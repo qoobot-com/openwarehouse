@@ -174,7 +174,7 @@ spring:
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/qoobot-com/openwarehouse.git
+git clone https://github.com/qoobots/openwarehouse.git
 cd openwarehouse
 
 # 2. 编译项目
@@ -350,9 +350,9 @@ EXPLAIN SELECT * FROM inventory WHERE warehouse_id = 1;
 
 ## 联系方式
 
-- 🌐 **项目地址**: https://github.com/qoobot-com/openwarehouse
-- 📧 **问题反馈**: https://github.com/qoobot-com/openwarehouse/issues
-- 📮 **邮箱**: dev@qoobot.com
+- 🌐 **项目地址**: https://github.com/qoobots/openwarehouse
+- 📧 **问题反馈**: https://github.com/qoobots/openwarehouse/issues
+- 📮 **邮箱**: hello@qoobot.com
 
 ## 致谢
 
